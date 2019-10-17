@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Codename: ShootGame</title>
+    <link rel='shortcut icon' type='image/png' href='./icon.png' />
+    <script src="preloadjs.min.js"></script>
+    <script src="loadproject.js"></script>
+    <link href="loader.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="Defeat your friends in this fun-packed PVP game!" />
+    <meta property="og:title" content="Codename: ShootGame" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://goldenblast714.github.io/Codename-Shootgame/" />
+    <meta property="og:image" content="https://goldenblast714.github.io/Codename-Shootgame/icon.png" />
+    <meta property="og:description" content="Defeat your friends in this fun-packed PVP game!" />
+
+    <style>
+      body,
+      html {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+      }
+
+      #wick-canvas-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wick-canvas-container">
+      <!-- Preloader -->
+      <div id="preloader">
+        <progress max="100" value="0"></progress>
+        <div id="loading-bar">Loading...</div>
+        <div class="flashy">
+          <img src="./icon.png" alt="Player 1" width="90%">
+        </div>
+        <div class="shadow">
+          <svg viewBox="0 0 100 50" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <ellipse cx="50" cy="25" rx="40" ry="10" style="fill: rgb(43, 43, 43);" />
+          </svg>
+        </div>
+        <div class="text">
+          <h1>Codename: ShootGame</h1>
+          <small style="font-size: 0.6em;">A Goldenblast714 Studios game</small>
+          <strong style="font-size: 0.9em">Parsec recommended</strong>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
